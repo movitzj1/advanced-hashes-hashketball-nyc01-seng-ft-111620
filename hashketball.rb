@@ -210,7 +210,10 @@ player_name = ""
         inner_value.each do |value_item|
           if value_item[:shoe] > max
             max = value_item[:shoe]
-
+            playe_name = value_item[:player_name]
+          end
         end
-
-        end
+      end
+    end
+  end
+end
