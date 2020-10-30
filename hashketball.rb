@@ -179,3 +179,10 @@ def player_numbers(team_name)
         inner_value.each do |value_item|
           if value_item[:player_name] == player_name
             empty_array << value_item[:number]
+          end
+        end
+      end
+    end
+  end
+  return empty_array
+end
