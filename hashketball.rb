@@ -193,4 +193,10 @@ def player_stats(player_name)
       if inner_key == :players
         inner_value.each do |value_item|
           if value_item[:player_name] == player_name
-            return value_item[:points]
+            return value_item
+          end
+        end
+      end
+    end
+  end
+end
