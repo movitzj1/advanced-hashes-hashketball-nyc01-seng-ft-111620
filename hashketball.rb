@@ -200,5 +200,3 @@ def player_stats(player_name)
     end
   end
 end
-
-puts player_stats("Alan Anderson")
