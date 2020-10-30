@@ -132,8 +132,6 @@ def num_points_scored(player_name)
     value.each do |inner_key, inner_value|
       if inner_key == :players
         inner_value.each do |value_item|
-      
-
       end
     end
   end
