@@ -194,4 +194,3 @@ def player_stats(player_name)
         inner_value.each do |value_item|
           if value_item[:player_name] == player_name
             return value_item[:points]
-  
