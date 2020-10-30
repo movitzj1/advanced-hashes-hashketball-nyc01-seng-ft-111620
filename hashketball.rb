@@ -186,3 +186,12 @@ def player_numbers(team_name)
   end
   return empty_array
 end
+
+def player_stats(player_name)
+  game_hash.each do |key, value|
+    value.each do |inner_key, inner_value|
+      if inner_key == :players
+        inner_value.each do |value_item|
+          if value_item[:player_name] == player_name
+            return value_item[:points]
+  
