@@ -126,4 +126,13 @@ def game_hash
   }
 end
 
-# Write code here
+
+def num_points_scored(player_name)
+  game_hash.each do |key, value|
+    value.each do |inner_key, inner_value|
+      inner_value.each do |value_item|
+        
+      end
+    end
+  end
+end
