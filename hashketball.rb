@@ -177,7 +177,7 @@ def player_numbers(team_name)
     value.each do |inner_key, inner_value|
       if inner_key == :players
         inner_value.each do |value_item|
-          if value_item[:player_name] == player_name
+          if value[:team_name] == team_name
             empty_array << value_item[:number]
           end
         end
